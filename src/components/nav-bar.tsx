@@ -21,7 +21,7 @@ export default function Navbar() {
     const path = usePathname();
 
     return (
-        <header className="sticky top-0 z-50 w-full">
+        <header className="sticky top-0 z-50 w-full bg-novium-bg py-6">
             <div className="flex h-16 items-center px-4 md:px-6">
                 <Link href="/" className="flex items-center space-x-2">
                     <div className="relative size-40">
@@ -84,7 +84,7 @@ export default function Navbar() {
                 <div className="hidden md:block ml-auto">
                     <NoviumButton
                         variant="outline"
-                        className="gap-2 text-novium-dark-green border-novium-dark-green"
+                        className="gap-2 text-novium-dark-green border-novium-dark-green py-6"
                     >
                         Let&apos;s Talk
                         <Mail
@@ -160,7 +160,7 @@ export default function Navbar() {
                             </Link>
                             <NoviumButton
                                 variant="outline"
-                                className="gap-2 text-novium-dark-green border-novium-dark-green"
+                                className="gap-2 text-novium-dark-green border-novium-dark-green py-6"
                             >
                                 Let&apos;s Talk
                                 <Mail

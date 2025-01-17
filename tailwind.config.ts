@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-
 export default {
     darkMode: ["class"],
     content: [
@@ -9,6 +8,9 @@ export default {
     ],
     theme: {
         extend: {
+            backgroundImage: {
+                hero: "url('/hero.png')",
+            },
             colors: {
                 // novium brand colors
                 "novium-green": "#A3D55F",
@@ -27,6 +29,8 @@ export default {
                 "novium-light-gray": "#C4C4C4",
                 "novium-white": "#FCFCFC",
 
+                // novium bg color
+                "novium-bg": "#F9F8F8",
                 background: "hsl(var(--background))",
                 foreground: "hsl(var(--foreground))",
                 card: {
