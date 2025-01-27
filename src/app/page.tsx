@@ -1,12 +1,24 @@
-import { Hero, ProductBuilding, Stats, Footer } from "@/components";
-
+import {
+    CTA,
+    Footer,
+    Hero,
+    ProductBuilding,
+    ServicesSection,
+    Stats,
+    Team,
+} from "@/components";
 export default function Home() {
     return (
-        <div className="px-8 bg-novium-bg">
+        <div className="bg-novium-bg">
             <Hero />
             <Stats />
             <ProductBuilding />
-            <Footer />
+            <ServicesSection />
+            <Team />
+            <div className="bg-novium-conic-gradient">
+                <CTA />
+                <Footer />
+            </div>
         </div>
     );
 }
