@@ -13,7 +13,7 @@ export default function ProfileCard({ profile }: ProfileCardProps) {
                 <div className="overflow-hidden h-full">
                     <Image
                         src={profile.image || "/placeholder.svg"}
-                        alt={`${name}'s portrait`}
+                        alt={`${profile.name}'s portrait`}
                         width={400}
                         height={580}
                         className="block w-[135%] h-full object-cover grayscale opacity-60 transition-all duration-300 ease-in-out group-hover:scale-110 group-hover:grayscale-0 group-hover:opacity-100"
