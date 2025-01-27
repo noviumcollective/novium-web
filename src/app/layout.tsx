@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
-import { Exo } from "next/font/google";
+import { Exo, Courier_Prime } from "next/font/google";
+
 import "./globals.css";
-import Navbar from "@/components/nav-bar";
+import Navbar from "@/components/globals/nav-bar";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const exo = Exo({
     variable: "--font-exo",
     subsets: ["latin"],
+});
+
+const courierPrime = Courier_Prime({
+    variable: "--font-courier-prime",
+    subsets: ["latin"],
+    weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -19,10 +27,19 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <body className={`${exo.variable} antialiased`}>
-                <Navbar />
-                {children}
+        <html lang="en" suppressHydrationWarning>
+            <body
+                className={`${exo.variable} ${courierPrime.variable} antialiased bg-novium-bg`}
+            >
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="system"
+                    enableSystem
+                    disableTransitionOnChange
+                >
+                    <Navbar />
+                    {children}
+                </ThemeProvider>
             </body>
         </html>
     );
