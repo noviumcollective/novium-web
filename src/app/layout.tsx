@@ -3,7 +3,6 @@ import { Exo, Courier_Prime } from "next/font/google";
 
 import "./globals.css";
 import Navbar from "@/components/globals/nav-bar";
-import { ThemeProvider } from "@/components/theme-provider";
 
 const exo = Exo({
     variable: "--font-exo",
@@ -28,18 +27,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" suppressHydrationWarning>
-            <body
-                className={`${exo.variable} ${courierPrime.variable} antialiased bg-novium-bg`}
-            >
-                <ThemeProvider
-                    attribute="class"
-                    defaultTheme="system"
-                    enableSystem
-                    disableTransitionOnChange
-                >
-                    <Navbar />
-                    {children}
-                </ThemeProvider>
+            <body className={`${exo.variable} ${courierPrime.variable} antialiased bg-novium-bg`}>
+                <Navbar />
+                {children}
             </body>
         </html>
     );

@@ -16,8 +16,7 @@ export default {
                 hero: "url('/backgrounds/hero.png')",
                 services: "url('/backgrounds/services.png')",
                 grid: "url('/backgrounds/grid.svg')",
-                "novium-conic-gradient":
-                    "conic-gradient(from 180deg at 50% 44.39%, #556F32 0deg, #F9F8F8 360deg)",
+                "novium-conic-gradient": "conic-gradient(from 180deg at 50% 44.39%, #556F32 0deg, #F9F8F8 360deg)",
             },
             colors: {
                 // novium brand colors
@@ -27,11 +26,11 @@ export default {
                 "novium-secondary": "#6A8EAE",
                 "novium-primary": "#092C4C",
 
-        // state colors
-        "info-state": "#2F80ED",
-        "success-state": "#27AE60",
-        "warning-state": "#E2B93B",
-        "error-state": "#EB5757",
+                // state colors
+                "info-state": "#2F80ED",
+                "success-state": "#27AE60",
+                "warning-state": "#E2B93B",
+                "error-state": "#EB5757",
 
                 // neutral colors
                 "novium-gray": "#4F4F4F",

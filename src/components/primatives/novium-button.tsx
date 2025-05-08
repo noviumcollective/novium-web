@@ -14,7 +14,7 @@ const noviumButtonVariants = cva(
                 destructive:
                     "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
                 outline:
-                    "border-2 border-novium-green bg-background shadow-sm hover:bg-novium-dark-green hover:text-white",
+                    "border-2 border-novium-green bg-background shadow-sm hover:bg-novium-dark-green hover:text-white hover:[&_svg]:text-white",
                 secondary:
                     "bg-novium-secondary text-primary-foreground shadow-sm hover:bg-novium-secondary/80",
                 ghost: "hover:bg-accent hover:text-accent-foreground",

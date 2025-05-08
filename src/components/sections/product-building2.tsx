@@ -19,7 +19,7 @@ import MarketStudyImage from "../../../public/product-building/market-study.png"
 
 import { cn } from "@/lib/utils";
 
-export default function ProductBuilding() {
+export default function ProductBuilding2() {
     const { theme, setTheme } = useTheme();
 
     const sectionRef = useRef<HTMLDivElement | null>(null);
