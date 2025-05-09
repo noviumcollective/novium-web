@@ -167,7 +167,7 @@ function NewsletterSubscription() {
                                 Subscribe
                             </NoviumButton>
                         </div>
-                        <p className="text-novium-light-gray text-sm">
+                        <p className="text-slate-500 text-sm">
                             By submitting your email address, you agree to
                             receive the monthly Levupp newsletter. For more
                             information, please read our{" "}

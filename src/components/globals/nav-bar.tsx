@@ -37,10 +37,10 @@ export default function Navbar() {
                 </Link>
 
                 {/* Separator */}
-                <Separator orientation="vertical" className="mx-10 h-6 hidden md:block w-[1px] bg-black" />
+                <Separator orientation="vertical" className="mx-10 h-6 hidden lg:block w-[1px] bg-black" />
 
                 {/* Desktop Navigation */}
-                <nav className="hidden md:flex md:items-center md:space-x-10">
+                <nav className="hidden lg:flex md:items-center md:space-x-10">
                     <Link
                         href="/"
                         className={cn(
@@ -80,7 +80,7 @@ export default function Navbar() {
                 </nav>
 
                 {/* Contact Button */}
-                <div className="hidden md:block ml-auto">
+                <div className="hidden lg:block ml-auto">
                     <Link href="mailto:sales@novium.io">
                         <Button className="w-40 transform rounded-lg bg-slate-900 px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800">
                             Let&apos;s Talk
@@ -92,7 +92,7 @@ export default function Navbar() {
                 {/* Mobile Menu */}
                 <Sheet open={isOpen} onOpenChange={setIsOpen}>
                     <SheetTrigger asChild>
-                        <Button variant="ghost" size="icon" className="ml-auto md:hidden">
+                        <Button variant="ghost" size="icon" className="ml-auto lg:hidden">
                             <div className="relative size-9">
                                 <Image src={NoviumMenu} alt="Novium Menu Icon" fill className="object-contain" />
                             </div>

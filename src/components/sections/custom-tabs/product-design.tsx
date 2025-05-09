@@ -1,7 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 
-
 export function ProductDesignSection() {
     return (
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -43,8 +42,6 @@ export function ProductDesignSection() {
                     </ul>
                 </CardContent>
             </Card>
-
-            {/* Other cards can go here */}
         </div>
     );
 }
