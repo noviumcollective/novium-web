@@ -80,14 +80,14 @@ export default function ProductBuilding2() {
                     <TabsList className="mx-auto w-full bg-transparent mb-7 md:space-x-6">
                         <TabsTrigger
                             value="productDesign"
-                            className="text-base data-[state=active]:bg-novium-green md:text-xl px-6 md:px-12 rounded-[6px] dark:bg-white dark:text-muted-foreground dark:data-[state=active]:bg-novium-green dark:data-[state=active]:text-foreground"
+                            className="text-base data-[state=active]:bg-novium-green md:text-xl px-6 md:px-12 rounded-none dark:bg-white dark:text-muted-foreground dark:data-[state=active]:bg-novium-green dark:data-[state=active]:text-foreground"
                             onClick={() => setTheme("light")}
                         >
                             Product Design
                         </TabsTrigger>
                         <TabsTrigger
                             value="softwareEngineering"
-                            className="text-base data-[state=active]:bg-novium-green md:text-xl px-6 md:px-12 rounded-[6px] dark:bg-white dark:text-muted-foreground dark:data-[state=active]:bg-novium-green dark:data-[state=active]:text-foreground"
+                            className="text-base data-[state=active]:bg-novium-green md:text-xl px-6 md:px-12 rounded-none dark:bg-white dark:text-muted-foreground dark:data-[state=active]:bg-novium-green dark:data-[state=active]:text-foreground"
                             onClick={() => setTheme("dark")}
                         >
                             Software Engineering

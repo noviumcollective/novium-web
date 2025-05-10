@@ -24,7 +24,7 @@ export default function Navbar() {
     const { resolvedTheme } = useTheme();
 
     return (
-        <header className="sticky top-5 z-50 w-full container mx-auto bg-background rounded-md py-4">
+        <header className="sticky top-5 z-50 w-full container mx-auto bg-background py-4">
             <div className="flex h-16 items-center px-4 md:px-6">
                 <Link href="/" className="flex items-center space-x-2">
                     <div className="relative size-40">
@@ -82,7 +82,7 @@ export default function Navbar() {
                 {/* Contact Button */}
                 <div className="hidden lg:block ml-auto">
                     <Link href="mailto:sales@novium.io">
-                        <Button className="w-40 transform rounded-lg bg-slate-900 px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800">
+                        <Button className="w-40 transform bg-slate-900 px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800">
                             Let&apos;s Talk
                             <Mail className="h-4 w-4 text-white" strokeWidth={2} />
                         </Button>
@@ -130,7 +130,7 @@ export default function Navbar() {
                                 Team
                             </Link>
                             <Link href="mailto:sales@novium.io">
-                                <Button className="w-40 transform rounded-lg bg-slate-900 px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800">
+                                <Button className="w-40 transform bg-slate-900 px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800">
                                     Let&apos;s Talk
                                     <Mail className="h-4 w-4 text-white" strokeWidth={2} />
                                 </Button>

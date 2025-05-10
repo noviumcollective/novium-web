@@ -41,14 +41,14 @@ export default function ProductBuilding() {
                     <TabsList className="mx-auto w-full bg-transparent mb-7 md:space-x-6">
                         <TabsTrigger
                             value="productDesign"
-                            className="text-base data-[state=active]:bg-novium-green md:text-xl px-6 md:px-12 rounded-[6px]"
+                            className="text-base data-[state=active]:bg-novium-green md:text-xl px-6 md:px-12"
                             // onClick={() => setTheme("light")}
                         >
                             Product Design
                         </TabsTrigger>
                         <TabsTrigger
                             value="softwareEngineering"
-                            className="text-base data-[state=active]:bg-novium-green md:text-xl px-6 md:px-12 rounded-[6px]"
+                            className="text-base data-[state=active]:bg-novium-green md:text-xl px-6 md:px-12"
                             // onClick={() => setTheme("dark")}
                         >
                             Software Engineering
@@ -123,7 +123,7 @@ function ProductDesign() {
     const [hoveredButton, setHoveredButton] = useState<string>("Business Canvas Modeling");
 
     return (
-        <div className="flex flex-col md:flex-row gap-8 p-6 bg-white rounded-lg shadow-sm">
+        <div className="flex flex-col md:flex-row gap-8 p-6 bg-white shadow-sm">
             {/* Image section */}
             <div className="md:w-1/2 relative">
                 {productDesignSections
@@ -136,7 +136,7 @@ function ProductDesign() {
                             width={500}
                             height={500}
                             className={cn(
-                                "absolute top-0 left-0 w-full h-full object-cover rounded-lg transition-opacity duration-500 ease-in-out",
+                                "absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out",
                                 hoveredButton === text ? "opacity-100" : "opacity-0"
                             )}
                         />
@@ -195,7 +195,7 @@ const softwareEngineeringSections = [
 
 function SoftwareEngineering() {
     return (
-        <div className="flex flex-col md:flex-row gap-8 md:p-6 bg-black rounded-lg shadow-sm items-center">
+        <div className="flex flex-col md:flex-row gap-8 md:p-6 bg-black shadow-sm items-center">
             {/* Services content */}
             <div className="md:w-1/2 space-y-12 flex flex-col items-start justify-center">
                 {softwareEngineeringSections.map(({ title, buttons }) => (

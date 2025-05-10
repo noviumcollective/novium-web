@@ -10,7 +10,7 @@ const tabs = [
         title: "Product Design",
         value: "product_design",
         content: (
-            <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-novium-green to-novium-dark-green flex flex-col justify-center items-start">
+            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-novium-green to-novium-dark-green flex flex-col justify-center items-start">
                 <CardHeader className="px-0 pt-0">
                     <Badge
                         variant="outline"
@@ -81,7 +81,7 @@ const tabs = [
         title: "Software Engineering",
         value: "software_engineering",
         content: (
-            <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-novium-secondary to-novium-primary font-mono flex flex-col justify-center items-start">
+            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-novium-secondary to-novium-primary flex flex-col justify-center items-start">
                 <CardHeader className="px-0 pt-0">
                     <Badge variant="outline" className="w-fit bg-white">
                         Development Focus
