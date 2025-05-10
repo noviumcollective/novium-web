@@ -60,7 +60,7 @@ export default function Navbar() {
                         Portfolio
                     </Link>
                     <Link
-                        href="/"
+                        href="#expertise"
                         className={cn(
                             "text-lg font-medium transition-colors hover:text-gray-900",
                             path === "/expertise" && "font-semibold"
@@ -69,7 +69,7 @@ export default function Navbar() {
                         Expertise
                     </Link>
                     <Link
-                        href="/"
+                        href="#team"
                         className={cn(
                             "text-lg font-medium transition-colors hover:text-gray-900",
                             path === "/team" && "font-semibold"
@@ -82,7 +82,7 @@ export default function Navbar() {
                 {/* Contact Button */}
                 <div className="hidden lg:block ml-auto">
                     <Link href="mailto:sales@novium.io">
-                        <Button className="w-40 transform bg-slate-900 px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800">
+                        <Button className="w-40 transform px-6 py-2 font-medium transition-all duration-300 hover:-translate-y-0.5">
                             Let&apos;s Talk
                             <Mail className="h-4 w-4 text-white" strokeWidth={2} />
                         </Button>
@@ -109,28 +109,28 @@ export default function Navbar() {
                                 Home
                             </Link>
                             <Link
-                                href="/portfolio"
+                                href="/"
                                 className={cn("text-lg font-medium", path === "/portfolio" && "font-semibold")}
                                 onClick={() => setIsOpen(false)}
                             >
                                 Portfolio
                             </Link>
                             <Link
-                                href="/expertise"
+                                href="#expertise"
                                 className={cn("text-lg font-medium", path === "/expertise" && "font-semibold")}
                                 onClick={() => setIsOpen(false)}
                             >
                                 Expertise
                             </Link>
                             <Link
-                                href="/team"
+                                href="#team"
                                 className={cn("text-lg font-medium", path === "/team" && "font-semibold")}
                                 onClick={() => setIsOpen(false)}
                             >
                                 Team
                             </Link>
                             <Link href="mailto:sales@novium.io">
-                                <Button className="w-40 transform bg-slate-900 px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800">
+                                <Button className="w-40 transform px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5">
                                     Let&apos;s Talk
                                     <Mail className="h-4 w-4 text-white" strokeWidth={2} />
                                 </Button>

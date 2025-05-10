@@ -10,8 +10,8 @@ const tabs = [
         title: "Product Design",
         value: "product_design",
         content: (
-            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-novium-green to-novium-dark-green flex flex-col justify-center items-start">
-                <CardHeader className="px-0 pt-0">
+            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-novium-green to-novium-dark-green flex flex-col justify-center items-center">
+                <CardHeader className="px-0 pt-0 flex flex-col justify-center items-center gap-3">
                     <Badge
                         variant="outline"
                         className="w-fit bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-100"
@@ -81,8 +81,8 @@ const tabs = [
         title: "Software Engineering",
         value: "software_engineering",
         content: (
-            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-novium-secondary to-novium-primary flex flex-col justify-center items-start">
-                <CardHeader className="px-0 pt-0">
+            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-novium-secondary to-novium-primary flex flex-col justify-center items-center">
+                <CardHeader className="px-0 pt-0 flex flex-col justify-center items-center gap-3">
                     <Badge variant="outline" className="w-fit bg-white">
                         Development Focus
                     </Badge>
@@ -157,7 +157,7 @@ const tabs = [
 
 export function ServicesTabs() {
     return (
-        <div className="h-[110dvh] lg:h-[60dvh] [perspective:1000px] relative flex flex-col container mx-auto w-full items-start justify-start my-40 px-4 lg:px-0">
+        <div id="expertise" className="h-[110dvh] lg:h-[60dvh] [perspective:1000px] relative flex flex-col container mx-auto w-full items-center justify-center my-40 px-4 lg:px-0">
             <div className="">
                 <h1 className="z-10 text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
                     {"Building the Perfect Product!".split(" ").map((word, index) => (
@@ -187,7 +187,7 @@ export function ServicesTabs() {
                         duration: 0.3,
                         delay: 0.8,
                     }}
-                    className="py-4 text-lg font-normal text-neutral-600 max-w-5xl"
+                    className="py-4 text-lg text-center font-normal text-neutral-600 max-w-5xl"
                 >
                     At Novium, we tailor design solutions to your unique needs—whether it&apos;s branding, marketing,
                     digital experiences, or SaaS products. Explore our work across different categories to see how we

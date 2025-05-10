@@ -39,7 +39,7 @@ export default {
                 "novium-text": "#2B2D2F",
 
                 // novium bg color
-                "novium-bg": "#F9F8F8",
+                "novium-bg": "#EEE",
 
                 // product building section colors
                 "p-blue": "#60A5FA",

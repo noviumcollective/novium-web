@@ -5,10 +5,10 @@ import Container from "../../primatives/container";
 import Heading from "../../primatives/heading";
 import Subheading from "../../primatives/subheading";
 import Avatar1 from "@/assets/image.png";
-import Avatar2 from "@/assets/image2.png";
 import { useRef } from "react";
 import { useInView, motion } from "framer-motion";
 import Image from "next/image";
+import { Coffee, Code, Database, Eye, Sparkles, Wand2, Bug, Zap, CheckCircle, Palette } from "lucide-react";
 
 type TeamMember = {
     name: string;
@@ -64,17 +64,34 @@ export default function TeamSection() {
         },
     };
 
+    const getTagIcon = (tag: string) => {
+        const tagLower = tag.toLowerCase();
+
+        if (tagLower.includes("coffee")) return Coffee;
+        if (tagLower.includes("css") || tagLower.includes("pixel")) return Palette;
+        if (tagLower.includes("code") || tagLower.includes("converter")) return Code;
+        if (tagLower.includes("database") || tagLower.includes("whisperer")) return Database;
+        if (tagLower.includes("eye") || tagLower.includes("sleep")) return Eye;
+        if (tagLower.includes("magic") || tagLower.includes("sorcerer")) return Wand2;
+        if (tagLower.includes("bug")) return Bug;
+        if (tagLower.includes("ceo") || tagLower.includes("multitask")) return Zap;
+        if (tagLower.includes("get") || tagLower.includes("done")) return CheckCircle;
+
+        // Default icon
+        return Sparkles;
+    };
+
     return (
-        <Container>
-            <div className="space-y-4" ref={ref}>
+        <Container className="mt-60 mb-32">
+            <div id="team" className="w-full flex flex-col gap-10" ref={ref}>
                 <SectionTag />
                 <Heading className="text-center">The Minds Behind Novium</Heading>
-                <Subheading className="text-center">
+                <p className="text-center text-sm md:text-xl leading-relaxed m-0 flex-1 max-w-5xl mx-auto">
                     We&apos;re just five humans, fueled by coffee, creativity, and the occasional brainstorming chaos.
                     From late-night ideas to breakthrough solutions, we turn pixels into magic, strategies into success,
                     and challenges into opportunities. Meet the crew behind the Novium curtain—where the real fun
                     happens!
-                </Subheading>
+                </p>
 
                 <div className="container mx-auto px-4">
                     <motion.div
@@ -104,14 +121,18 @@ export default function TeamSection() {
                                     <p className="text-gray-600 mb-3">{member.role}</p>
 
                                     <div className="flex flex-wrap justify-center gap-2 mt-2">
-                                        {member.tags.map((tag, tagIndex) => (
-                                            <span
-                                                key={tagIndex}
-                                                className="px-3 py-1 bg-gray-200 text-gray-800 text-xs font-medium"
-                                            >
-                                                {tag}
-                                            </span>
-                                        ))}
+                                        {member.tags.map((tag, tagIndex) => {
+                                            const IconComponent = getTagIcon(tag);
+                                            return (
+                                                <span
+                                                    key={tagIndex}
+                                                    className="px-3 py-1 bg-novium-dark-green text-white hover:text-novium-dark-green hover:bg-white transition-all text-xs font-medium flex items-center gap-1 shadow-sm border border-novium-dark-green"
+                                                >
+                                                    <IconComponent className="w-3.5 h-3.5" />
+                                                    {tag}
+                                                </span>
+                                            );
+                                        })}
                                     </div>
                                 </div>
                             </motion.div>

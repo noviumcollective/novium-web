@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Button } from "../ui/button";
 
 export default function Hero() {
     return (
@@ -61,12 +62,12 @@ export default function Hero() {
                     }}
                     className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
                 >
-                    <button className="w-60 transform bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200">
+                    <Button className="w-60 transform px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5">
                         Start your journey
-                    </button>
-                    <button className="w-60 transform border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
+                    </Button>
+                    <Button className="w-60 transform border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5">
                         Contact us
-                    </button>
+                    </Button>
                 </motion.div>
             </div>
         </div>

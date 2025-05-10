@@ -10,7 +10,10 @@ export default function CTA() {
                 Great Ideas Start with
                 <br />a Simple Conversation
             </Heading>
-            <Button variant="outline" className="gap-2 text-white border-white py-6 bg-transparent">
+            <Button
+                variant="outline"
+                className="w-60 gap-2 text-novium-dark-green hover:border-novium-dark-green hover:text-white hover:bg-novium-dark-green border-white py-6 bg-white"
+            >
                 Let&apos;s Talk
                 <Mail className="h-4 w-4text-white" strokeWidth={2} />
             </Button>
