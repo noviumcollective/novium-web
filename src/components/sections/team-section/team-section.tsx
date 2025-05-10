@@ -3,7 +3,6 @@
 import { Check } from "lucide-react";
 import Container from "../../primatives/container";
 import Heading from "../../primatives/heading";
-import Subheading from "../../primatives/subheading";
 import Avatar1 from "@/assets/image.png";
 import { useRef } from "react";
 import { useInView, motion } from "framer-motion";
