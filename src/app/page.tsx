@@ -9,7 +9,7 @@ export default function Home() {
             <Stats />
             <ServicesTabs />
             <TeamSection />
-            <div className="bg-novium-conic-gradient">
+            <div className="bg-novium-conic-gradient-mobile md:bg-novium-conic-gradient">
                 <CTA />
                 <Footer />
             </div>

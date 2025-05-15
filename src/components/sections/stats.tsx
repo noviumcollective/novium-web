@@ -20,7 +20,7 @@ export default function Stats() {
                 <Heading className="text-slate-700">At Novium, We Design Solutions That Work.</Heading>
 
                 <div className="flex md:gap-12 justify-center items-center">
-                    <p className="text-lg text-neutral-600">
+                    <p className="text-sm md:text-lg text-neutral-600">
                         We turn ideas into impactful digital solutions. From intuitive designs to seamless development,
                         we specialize in crafting user-centered experiences that drive results and help your business
                         thrive.

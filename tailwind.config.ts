@@ -17,6 +17,8 @@ export default {
                 services: "url('/backgrounds/services.png')",
                 grid: "url('/backgrounds/grid.svg')",
                 "novium-conic-gradient": "conic-gradient(from 180deg at 50% 44.39%, #556F32 0deg, #F9F8F8 360deg)",
+                "novium-conic-gradient-mobile":
+                    "conic-gradient(from 320deg at 50% 44.39%, #556f32 0deg, #f9f8f8 360deg)",
             },
             colors: {
                 // novium brand colors

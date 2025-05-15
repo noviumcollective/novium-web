@@ -44,7 +44,7 @@ export default function Hero() {
                         duration: 0.3,
                         delay: 0.8,
                     }}
-                    className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 dark:text-neutral-400"
+                    className="relative z-10 mx-auto max-w-xl py-4 text-center text-sm md:text-lg font-normal text-neutral-600 dark:text-neutral-400"
                 >
                     In a world where every click matters, we craft solutions that connect, convert, and create lasting
                     impact.
@@ -60,7 +60,7 @@ export default function Hero() {
                         duration: 0.3,
                         delay: 1,
                     }}
-                    className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
+                    className="relative z-10 mt-4 flex flex-wrap items-center justify-center gap-4"
                 >
                     <Button className="w-60 transform px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5">
                         Start your journey

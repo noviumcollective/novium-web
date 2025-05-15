@@ -26,7 +26,7 @@ const teamMembers: TeamMember[] = [
     {
         name: "Mohamad Chebli",
         role: "Frontend Developer",
-        tags: ["Coffee-to-Code Converter", "CSS Sorcerer", "Pixel Tweaker Extraordinaire"],
+        tags: ["Coffee-to-Code Converter", "UX Driven", "Pixel Perfect"],
         image: Avatar1.src,
     },
     {
@@ -82,17 +82,17 @@ export default function TeamSection() {
 
     return (
         <Container className="mt-60 mb-32">
-            <div id="team" className="w-full flex flex-col gap-10" ref={ref}>
+            <div id="team" className="w-full flex flex-col gap-10 px-4" ref={ref}>
                 <SectionTag />
                 <Heading className="text-center">The Minds Behind Novium</Heading>
-                <p className="text-center text-sm md:text-xl leading-relaxed m-0 flex-1 max-w-5xl mx-auto">
+                <p className="text-center text-sm md:text-lg leading-relaxed m-0 flex-1 max-w-5xl mx-auto">
                     We&apos;re just five humans, fueled by coffee, creativity, and the occasional brainstorming chaos.
                     From late-night ideas to breakthrough solutions, we turn pixels into magic, strategies into success,
                     and challenges into opportunities. Meet the crew behind the Novium curtain—where the real fun
                     happens!
                 </p>
 
-                <div className="container mx-auto px-4">
+                <div className="container mx-auto">
                     <motion.div
                         className="grid grid-cols-1 md:grid-cols-3 gap-8"
                         variants={containerVariants}
@@ -125,7 +125,7 @@ export default function TeamSection() {
                                             return (
                                                 <span
                                                     key={tagIndex}
-                                                    className="px-3 py-1 bg-novium-dark-green text-white hover:text-novium-dark-green hover:bg-white transition-all text-xs font-medium flex items-center gap-1 shadow-sm border border-novium-dark-green"
+                                                    className="px-3 py-1 bg-novium-dark-green text-white hover:text-novium-dark-green hover:bg-white transition-all text-xs font-medium flex items-center gap-1 shadow-sm border border-novium-dark-green text-center"
                                                 >
                                                     <IconComponent className="w-3.5 h-3.5" />
                                                     {tag}

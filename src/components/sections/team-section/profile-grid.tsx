@@ -48,7 +48,7 @@ const profiles = [
                 text: "Coffee-to-Code Converter ☕️ ➡ 💻",
             },
             {
-                text: "CSS Sorcerer 🔮",
+                text: "UXDriven 🔮",
             },
             {
                 text: "Pixel Tweaker Extraordinaire 🎯",

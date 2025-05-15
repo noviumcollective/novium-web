@@ -18,8 +18,8 @@ const tabs = [
                     >
                         UI/UX Focus
                     </Badge>
-                    <CardTitle className="text-novium-light-green">Product Design</CardTitle>
-                    <CardDescription className="text-novium-light-green">
+                    <CardTitle className="text-novium-light-green text-center">Product Design</CardTitle>
+                    <CardDescription className="text-novium-light-green text-center font-medium">
                         Crafting intuitive user experiences and beautiful interfaces
                     </CardDescription>
                 </CardHeader>
@@ -86,8 +86,8 @@ const tabs = [
                     <Badge variant="outline" className="w-fit bg-white">
                         Development Focus
                     </Badge>
-                    <CardTitle className="text-white">Software Engineering</CardTitle>
-                    <CardDescription className="text-white">
+                    <CardTitle className="text-white text-center">Software Engineering</CardTitle>
+                    <CardDescription className="text-white text-center font-medium">
                         Crafting intuitive user experiences and beautiful interfaces
                     </CardDescription>
                 </CardHeader>
@@ -157,9 +157,12 @@ const tabs = [
 
 export function ServicesTabs() {
     return (
-        <div id="expertise" className="h-[110dvh] lg:h-[60dvh] [perspective:1000px] relative flex flex-col container mx-auto w-full items-center justify-center my-40 px-4 lg:px-0">
+        <div
+            id="expertise"
+            className="h-[110dvh] lg:h-[60dvh] [perspective:1000px] relative flex flex-col container mx-auto w-full items-center justify-center my-40 px-4 lg:px-0"
+        >
             <div className="">
-                <h1 className="z-10 text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
+                <h1 className="z-10 text-2xl text-center font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
                     {"Building the Perfect Product!".split(" ").map((word, index) => (
                         <motion.span
                             key={index}
@@ -187,7 +190,7 @@ export function ServicesTabs() {
                         duration: 0.3,
                         delay: 0.8,
                     }}
-                    className="py-4 text-lg text-center font-normal text-neutral-600 max-w-5xl"
+                    className="py-4 text-sm md:text-lg text-center font-normal text-neutral-600 max-w-5xl"
                 >
                     At Novium, we tailor design solutions to your unique needs—whether it&apos;s branding, marketing,
                     digital experiences, or SaaS products. Explore our work across different categories to see how we
