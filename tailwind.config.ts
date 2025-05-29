@@ -14,6 +14,9 @@ export default {
             },
             backgroundImage: {
                 hero: "url('/backgrounds/hero.png')",
+                office1: "url('/backgrounds/office1.jpeg')",
+                office2: "url('/backgrounds/office2.jpeg')",
+                office3: "url('/backgrounds/office3.jpeg')",
                 services: "url('/backgrounds/services.png')",
                 grid: "url('/backgrounds/grid.svg')",
                 "novium-conic-gradient": "conic-gradient(from 180deg at 50% 44.39%, #556F32 0deg, #F9F8F8 360deg)",

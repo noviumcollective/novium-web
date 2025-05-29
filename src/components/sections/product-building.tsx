@@ -103,7 +103,7 @@ const productDesignSections = [
         ],
     },
     {
-        title: "Marketing Strategies",
+        title: "Consulting Strategies",
         buttons: [
             {
                 text: "Product Rollout Campaign",
