@@ -5,18 +5,18 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const noviumButtonVariants = cva(
-    "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-n-8 text-base font-bold transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+    "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-n-8 text-base font-bold transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
     {
         variants: {
             variant: {
                 default:
-                    "bg-novium-green text-primary-foreground shadow hover:bg-novium-dark-green",
+                    "bg-novium-green text-primary-foreground shadow-sm hover:bg-novium-dark-green",
                 destructive:
-                    "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
+                    "bg-destructive text-destructive-foreground shadow-xs hover:bg-destructive/90",
                 outline:
-                    "border-2 border-novium-green bg-background shadow-sm hover:bg-novium-dark-green hover:text-white hover:[&_svg]:text-white",
+                    "border-2 border-novium-green bg-background shadow-xs hover:bg-novium-dark-green hover:text-white [&_svg]:hover:text-white",
                 secondary:
-                    "bg-novium-secondary text-primary-foreground shadow-sm hover:bg-novium-secondary/80",
+                    "bg-novium-secondary text-primary-foreground shadow-xs hover:bg-novium-secondary/80",
                 ghost: "hover:bg-accent hover:text-accent-foreground",
                 link: "text-primary underline-offset-4 hover:underline",
             },

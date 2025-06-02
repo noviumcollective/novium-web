@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 export default function CTA() {
     return (
         <Container className="gap-10 my-10 py-10 md:h-[90vh]">
-            <Heading className="text-center text-white text-2xl md:!text-[56px]">
+            <Heading className="text-center text-white text-2xl md:text-[56px]!">
                 Great Ideas Start with
                 <br />a Simple Conversation
             </Heading>

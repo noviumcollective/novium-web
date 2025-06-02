@@ -123,7 +123,7 @@ function ProductDesign() {
     const [hoveredButton, setHoveredButton] = useState<string>("Business Canvas Modeling");
 
     return (
-        <div className="flex flex-col md:flex-row gap-8 p-6 bg-white shadow-sm">
+        <div className="flex flex-col md:flex-row gap-8 p-6 bg-white shadow-xs">
             {/* Image section */}
             <div className="md:w-1/2 relative">
                 {productDesignSections
@@ -195,7 +195,7 @@ const softwareEngineeringSections = [
 
 function SoftwareEngineering() {
     return (
-        <div className="flex flex-col md:flex-row gap-8 md:p-6 bg-black shadow-sm items-center">
+        <div className="flex flex-col md:flex-row gap-8 md:p-6 bg-black shadow-xs items-center">
             {/* Services content */}
             <div className="md:w-1/2 space-y-12 flex flex-col items-start justify-center">
                 {softwareEngineeringSections.map(({ title, buttons }) => (

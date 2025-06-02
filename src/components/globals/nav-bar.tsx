@@ -37,7 +37,7 @@ export default function Navbar() {
                 </Link>
 
                 {/* Separator */}
-                <Separator orientation="vertical" className="mx-10 h-6 hidden lg:block w-[1px] bg-black" />
+                <Separator orientation="vertical" className="mx-10 h-6 hidden lg:block w-px bg-black" />
 
                 {/* Desktop Navigation */}
                 <nav className="hidden lg:flex md:items-center md:space-x-10">

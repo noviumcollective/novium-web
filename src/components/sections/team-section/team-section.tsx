@@ -125,7 +125,7 @@ export default function TeamSection() {
                                             return (
                                                 <span
                                                     key={tagIndex}
-                                                    className="px-3 py-1 bg-novium-dark-green text-white hover:text-novium-dark-green hover:bg-white transition-all text-xs font-medium flex items-center gap-1 shadow-sm border border-novium-dark-green text-center"
+                                                    className="px-3 py-1 bg-novium-dark-green text-white hover:text-novium-dark-green hover:bg-white transition-all text-xs font-medium flex items-center gap-1 shadow-xs border border-novium-dark-green text-center"
                                                 >
                                                     <IconComponent className="w-3.5 h-3.5" />
                                                     {tag}

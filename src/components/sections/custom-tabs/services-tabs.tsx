@@ -10,7 +10,7 @@ const tabs = [
         title: "Product Design",
         value: "product_design",
         content: (
-            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-novium-green to-novium-dark-green flex flex-col justify-center items-center">
+            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-linear-to-br from-novium-green to-novium-dark-green flex flex-col justify-center items-center">
                 <CardHeader className="px-0 pt-0 flex flex-col justify-center items-center gap-3">
                     <Badge
                         variant="outline"
@@ -81,7 +81,7 @@ const tabs = [
         title: "Software Engineering",
         value: "software_engineering",
         content: (
-            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-novium-secondary to-novium-primary flex flex-col justify-center items-center">
+            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-linear-to-br from-novium-secondary to-novium-primary flex flex-col justify-center items-center">
                 <CardHeader className="px-0 pt-0 flex flex-col justify-center items-center gap-3">
                     <Badge variant="outline" className="w-fit bg-white">
                         Development Focus
@@ -159,7 +159,7 @@ export function ServicesTabs() {
     return (
         <div
             id="expertise"
-            className="h-[110dvh] lg:h-[60dvh] [perspective:1000px] relative flex flex-col container mx-auto w-full items-center justify-center my-40 px-4 lg:px-0"
+            className="h-[110dvh] lg:h-[60dvh] perspective-[1000px] relative flex flex-col container mx-auto w-full items-center justify-center my-40 px-4 lg:px-0"
         >
             <div className="">
                 <h1 className="z-10 text-2xl text-center font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">

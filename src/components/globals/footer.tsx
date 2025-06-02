@@ -114,7 +114,7 @@ function NewsletterSubscription() {
                             <Input
                                 type="email"
                                 placeholder="Your Email"
-                                className="w-full shadow-none bg-white rounded-none text-black text-sm placeholder:text-black focus:ring-0 focus:outline-none"
+                                className="w-full shadow-none bg-white rounded-none text-black text-sm placeholder:text-black focus:ring-0 focus:outline-hidden"
                                 aria-label="Email address"
                             />
                             <NoviumButton

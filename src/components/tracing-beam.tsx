@@ -39,7 +39,7 @@ export const TracingBeam = ({ children, className }: { children: React.ReactNode
                     animate={{
                         boxShadow: scrollYProgress.get() > 0 ? "none" : "rgba(0, 0, 0, 0.24) 0px 3px 8px",
                     }}
-                    className="border-netural-200 ml-[27px] flex h-4 w-4 items-center justify-center rounded-full border shadow-sm"
+                    className="border-netural-200 ml-[27px] flex h-4 w-4 items-center justify-center rounded-full border shadow-xs"
                 >
                     <motion.div
                         transition={{
@@ -103,7 +103,7 @@ export const TracingBeam = ({ children, className }: { children: React.ReactNode
                     animate={{
                         boxShadow: scrollYProgress.get() > 0 ? "none" : "rgba(0, 0, 0, 0.24) 0px 3px 8px",
                     }}
-                    className="border-netural-200 ml-[9px] flex h-4 w-4 items-center justify-center rounded-full border shadow-sm"
+                    className="border-netural-200 ml-[9px] flex h-4 w-4 items-center justify-center rounded-full border shadow-xs"
                 >
                     <motion.div
                         transition={{

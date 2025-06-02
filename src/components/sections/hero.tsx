@@ -7,13 +7,13 @@ export default function Hero() {
     return (
         <div className="relative mx-auto my-10 flex container flex-col items-center justify-center bg-meetingroom2 bg-cover bg-center bg-no-repeat min-h-lvh">
             <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
-                <div className="absolute top-0 h-40 w-0.5 bg-gradient-to-b from-transparent via-novium-green to-transparent" />
+                <div className="absolute top-0 h-40 w-0.5 bg-linear-to-b from-transparent via-novium-green to-transparent" />
             </div>
             <div className="absolute inset-y-0 right-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
-                <div className="absolute h-40 w-0.5 bg-gradient-to-b from-transparent via-novium-green to-transparent" />
+                <div className="absolute h-40 w-0.5 bg-linear-to-b from-transparent via-novium-green to-transparent" />
             </div>
             <div className="absolute inset-x-0 bottom-0 h-0.5 w-full bg-neutral-200/80 dark:bg-neutral-800/80">
-                <div className="absolute mx-auto h-0.5 w-40 bg-gradient-to-r from-transparent via-novium-green to-transparent" />
+                <div className="absolute mx-auto h-0.5 w-40 bg-linear-to-r from-transparent via-novium-green to-transparent" />
             </div>
             <div className="px-4 py-10 md:py-20">
                 <h1 className="relative z-10 mx-auto max-w-4xl text-center text-2xl font-bold text-slate-200 md:text-4xl lg:text-7xl dark:text-slate-300">

@@ -164,7 +164,7 @@ function ProductDesign() {
     );
 
     return (
-        <div className="flex flex-col md:flex-row gap-8 p-6 bg-white rounded-lg shadow-sm">
+        <div className="flex flex-col md:flex-row gap-8 p-6 bg-white rounded-lg shadow-xs">
             {/* Image section */}
             <div className="md:w-1/2 relative">
                 {productDesignSections
@@ -250,7 +250,7 @@ const softwareEngineeringSections = [
 
 function SoftwareEngineering() {
     return (
-        <div className="flex flex-col md:flex-row gap-8 md:p-6 bg-black rounded-lg shadow-sm items-center">
+        <div className="flex flex-col md:flex-row gap-8 md:p-6 bg-black rounded-lg shadow-xs items-center">
             {/* Services content */}
             <div className="md:w-1/2 space-y-12 flex flex-col items-start justify-center">
                 {softwareEngineeringSections.map(({ title, buttons }) => (
