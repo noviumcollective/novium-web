@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Exo, Courier_Prime } from "next/font/google";
+import { Exo } from "next/font/google";
 
 import "./globals.css";
 import Navbar from "@/components/globals/nav-bar";
@@ -11,7 +11,7 @@ const exo = Exo({
 
 export const metadata: Metadata = {
     title: "Novium",
-    description: "DigitalExperiencesThatDriveResults",
+    description: "Digital Experiences That Drive Results",
 };
 
 export default function RootLayout({

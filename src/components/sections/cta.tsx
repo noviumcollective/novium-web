@@ -12,7 +12,7 @@ export default function CTA() {
             </Heading>
             <Button
                 variant="outline"
-                className="w-60 gap-2 text-novium-dark-green hover:border-novium-dark-green hover:text-white hover:bg-novium-dark-green border-white md:py-6 bg-white"
+                className="w-60 gap-2 text-black hover:border-novium-dark-green hover:text-white hover:bg-novium-dark-green border-novium-green md:py-6 bg-novium-green"
             >
                 Let&apos;s Talk
                 <Mail className="h-4 w-4text-white" strokeWidth={2} />

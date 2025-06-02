@@ -19,14 +19,14 @@ type TeamMember = {
 const teamMembers: TeamMember[] = [
     {
         name: "Mohamad Kreidly",
-        role: "Founder, Software Engineer",
+        role: "CEO & Founder",
         tags: ["CEO of Multitasking", "Sleeps with one eye on code", "Gets sh*t done"],
         image: Avatar1.src,
     },
     {
         name: "Mohamad Chebli",
-        role: "Frontend Developer",
-        tags: ["Coffee-to-Code Converter", "UX Driven", "Pixel Perfect"],
+        role: "Software Engineer",
+        tags: ["Design. Code. Deploy.", "UX Driven", "Pixel Perfect"],
         image: Avatar1.src,
     },
     {

@@ -65,8 +65,8 @@ export default function Footer() {
                         </h2>
                         <div className="gap-8 flex flex-col items-center justify-center">
                             <NoviumButton
-                                variant="outline"
-                                className="w-full md:w-auto border border-black rounded-none"
+                                variant="default"
+                                className="w-full md:w-auto border border-novium-green rounded-none"
                             >
                                 Schedule Discussion
                             </NoviumButton>
