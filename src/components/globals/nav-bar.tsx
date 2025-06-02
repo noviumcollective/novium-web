@@ -84,7 +84,7 @@ export default function Navbar() {
                     <Link href="mailto:sales@novium.io">
                         <Button
                             variant="outline"
-                            className="w-40 gap-2 text-white hover:border-novium-dark-green hover:text-novium-dark-green hover:bg-white border-novium-dark-green py-2 bg-novium-dark-green"
+                            className="w-40 gap-2 text-white hover:border-novium-green hover:text-novium-green hover:bg-white border-novium-green py-2 bg-novium-green"
                         >
                             Let&apos;s Talk
                             <Mail className="h-4 w-4text-white" strokeWidth={2} />

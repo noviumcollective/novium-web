@@ -10,11 +10,12 @@ export default {
         extend: {
             fontFamily: {
                 sans: ["Exo", "sans-serif"],
-                mono: ["Courier", "monospace"],
             },
             backgroundImage: {
                 hero: "url('/backgrounds/hero.png')",
                 office1: "url('/backgrounds/office1.jpeg')",
+                meetingroom1: "url('/backgrounds/meeting-room1.jpeg')",
+                meetingroom2: "url('/backgrounds/meeting-room2.jpeg')",
                 office2: "url('/backgrounds/office2.jpeg')",
                 office3: "url('/backgrounds/office3.jpeg')",
                 services: "url('/backgrounds/services.png')",
