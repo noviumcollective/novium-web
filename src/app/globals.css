@@ -1,92 +1,88 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @plugin 'tailwindcss-animate';
 
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-sans: Exo, sans-serif;
+    --font-sans: Exo, sans-serif;
 
-  --background-image-hero: url('/backgrounds/hero.png');
-  --background-image-office1: url('/backgrounds/office1.jpeg');
-  --background-image-meetingroom1: url('/backgrounds/meeting-room1.jpeg');
-  --background-image-meetingroom2: url('/backgrounds/meeting-room2.jpeg');
-  --background-image-office2: url('/backgrounds/office2.jpeg');
-  --background-image-office3: url('/backgrounds/office3.jpeg');
-  --background-image-services: url('/backgrounds/services.png');
-  --background-image-grid: url('/backgrounds/grid.svg');
-  --background-image-novium-conic-gradient: conic-gradient(
-    from 180deg at 50% 44.39%,
-    #556f32 0deg,
-    #f9f8f8 360deg
-  );
-  --background-image-novium-conic-gradient-mobile: conic-gradient(
-    from 320deg at 50% 44.39%,
-    #556f32 0deg,
-    #f9f8f8 360deg
-  );
+    --background-image-hero: url("/backgrounds/hero.png");
+    --background-image-office1: url("/backgrounds/office1.jpeg");
+    --background-image-meetingroom1: url("/backgrounds/meeting-room1.jpeg");
+    --background-image-meetingroom2: url("/backgrounds/meeting-room2.jpeg");
+    --background-image-office2: url("/backgrounds/office2.jpeg");
+    --background-image-office3: url("/backgrounds/office3.jpeg");
+    --background-image-services: url("/backgrounds/services.png");
+    --background-image-grid: url("/backgrounds/grid.svg");
+    --background-image-novium-conic-gradient: conic-gradient(from 180deg at 50% 44.39%, #556f32 0deg, #f9f8f8 360deg);
+    --background-image-novium-conic-gradient-mobile: conic-gradient(
+        from 320deg at 50% 44.39%,
+        #556f32 0deg,
+        #f9f8f8 360deg
+    );
 
-  --color-novium-green: #a3d55f;
-  --color-novium-light-green: #ecfad9;
-  --color-novium-dark-green: #3a5743;
-  --color-novium-secondary: #6a8eae;
-  --color-novium-primary: #092c4c;
-  --color-info-state: #2f80ed;
-  --color-success-state: #27ae60;
-  --color-warning-state: #e2b93b;
-  --color-error-state: #eb5757;
-  --color-novium-gray: #4f4f4f;
-  --color-novium-light-gray: #c4c4c4;
-  --color-novium-white: #fcfcfc;
-  --color-novium-text: #2b2d2f;
-  --color-novium-bg: #eee;
-  --color-p-blue: #60a5fa;
-  --color-p-orange: #fb923c;
-  --color-p-purple: #c084fc;
-  --color-p-yellow: #facc15;
-  --color-p-indigo: #818cf8;
-  --color-p-teal: #2dd4bf;
-  --color-p-red: #f87171;
-  --color-p-sky: #38bdf8;
-  --color-p-green: #4ade80;
-  --color-background: hsl(var(--background));
-  --color-foreground: hsl(var(--foreground));
+    --color-novium-green: #a3d55f;
+    --color-novium-light-green: #ecfad9;
+    --color-novium-dark-green: #3a5743;
+    --color-novium-secondary: #6a8eae;
+    --color-novium-primary: #092c4c;
+    --color-info-state: #2f80ed;
+    --color-success-state: #27ae60;
+    --color-warning-state: #e2b93b;
+    --color-error-state: #eb5757;
+    --color-novium-gray: #4f4f4f;
+    --color-novium-light-gray: #c4c4c4;
+    --color-novium-white: #fcfcfc;
+    --color-novium-text: #2b2d2f;
+    --color-novium-bg: #eee;
+    --color-p-blue: #60a5fa;
+    --color-p-orange: #fb923c;
+    --color-p-purple: #c084fc;
+    --color-p-yellow: #facc15;
+    --color-p-indigo: #818cf8;
+    --color-p-teal: #2dd4bf;
+    --color-p-red: #f87171;
+    --color-p-sky: #38bdf8;
+    --color-p-green: #4ade80;
+    --color-background: hsl(var(--background));
+    --color-foreground: hsl(var(--foreground));
 
-  --color-card: hsl(var(--card));
-  --color-card-foreground: hsl(var(--card-foreground));
+    --color-card: hsl(var(--card));
+    --color-card-foreground: hsl(var(--card-foreground));
 
-  --color-popover: hsl(var(--popover));
-  --color-popover-foreground: hsl(var(--popover-foreground));
+    --color-popover: hsl(var(--popover));
+    --color-popover-foreground: hsl(var(--popover-foreground));
 
-  --color-primary: hsl(var(--primary));
-  --color-primary-foreground: hsl(var(--primary-foreground));
+    --color-primary: hsl(var(--primary));
+    --color-primary-foreground: hsl(var(--primary-foreground));
 
-  --color-secondary: hsl(var(--secondary));
-  --color-secondary-foreground: hsl(var(--secondary-foreground));
+    --color-secondary: hsl(var(--secondary));
+    --color-secondary-foreground: hsl(var(--secondary-foreground));
 
-  --color-muted: hsl(var(--muted));
-  --color-muted-foreground: hsl(var(--muted-foreground));
+    --color-muted: hsl(var(--muted));
+    --color-muted-foreground: hsl(var(--muted-foreground));
 
-  --color-accent: hsl(var(--accent));
-  --color-accent-foreground: hsl(var(--accent-foreground));
+    --color-accent: hsl(var(--accent));
+    --color-accent-foreground: hsl(var(--accent-foreground));
 
-  --color-destructive: hsl(var(--destructive));
-  --color-destructive-foreground: hsl(var(--destructive-foreground));
+    --color-destructive: hsl(var(--destructive));
+    --color-destructive-foreground: hsl(var(--destructive-foreground));
 
-  --color-border: hsl(var(--border));
-  --color-input: hsl(var(--input));
-  --color-ring: hsl(var(--ring));
+    --color-border: hsl(var(--border));
+    --color-input: hsl(var(--input));
+    --color-ring: hsl(var(--ring));
 
-  --color-chart-1: hsl(var(--chart-1));
-  --color-chart-2: hsl(var(--chart-2));
-  --color-chart-3: hsl(var(--chart-3));
-  --color-chart-4: hsl(var(--chart-4));
-  --color-chart-5: hsl(var(--chart-5));
+    --color-chart-1: hsl(var(--chart-1));
+    --color-chart-2: hsl(var(--chart-2));
+    --color-chart-3: hsl(var(--chart-3));
+    --color-chart-4: hsl(var(--chart-4));
+    --color-chart-5: hsl(var(--chart-5));
 
-  --radius-n-8: 8px;
-  --radius-lg: var(--radius);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-sm: calc(var(--radius) - 4px);
+    --radius-n-8: 8px;
+    --radius-lg: var(--radius);
+    --radius-md: calc(var(--radius) - 2px);
+    --radius-sm: calc(var(--radius) - 4px);
 }
 
 /*
@@ -98,13 +94,13 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
-  }
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentcolor);
+    }
 }
 
 @layer base {
