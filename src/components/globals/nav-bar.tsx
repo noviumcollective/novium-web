@@ -81,7 +81,7 @@ export default function Navbar() {
 
                 {/* Contact Button */}
                 <div className="hidden lg:block ml-auto">
-                    <Link href="mailto:sales@novium.io">
+                    <Link href="#contact-form">
                         <Button
                             variant="outline"
                             className="w-40 gap-2 text-white hover:border-novium-green hover:text-novium-green hover:bg-white border-novium-green py-2 bg-novium-green"
@@ -132,7 +132,7 @@ export default function Navbar() {
                             >
                                 Team
                             </Link>
-                            <Link href="mailto:sales@novium.io">
+                            <Link href="#contact-form">
                                 <Button className="w-40 transform px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5">
                                     Let&apos;s Talk
                                     <Mail className="h-4 w-4 text-white" strokeWidth={2} />

@@ -59,15 +59,11 @@ export default function ProductBuilding2() {
             <div className="flex flex-col items-center justify-center md:h-screen container dark:max-w-full dark:px-8 mx-auto bg-transparent dark:bg-novium-gray dark:bg-grid dark:bg-no-repeat dark:bg-contain dark:bg-bottom">
                 {/* Header */}
                 <div className="flex flex-col items-start justify-center space-y-6 md:space-y-12">
-                    <Heading className="text-foreground dark:font-normal">
-                        Building the Perfect Product!
-                    </Heading>
+                    <Heading className="text-foreground dark:font-normal">Building the Perfect Product!</Heading>
                     <Subheading className="text-foreground max-w-full">
-                        At Novium, we tailor design solutions to your unique
-                        needs—whether it&apos;s branding, marketing, digital
-                        experiences, or SaaS products. Explore our work across
-                        different categories to see how we turn challenges into
-                        creative solutions, ready to bring your vision to life.
+                        At Novium, we tailor design solutions to your unique needs—whether it&apos;s branding,
+                        marketing, digital experiences, or SaaS products. Explore our work across different categories
+                        to see how we turn challenges into creative solutions, ready to bring your vision to life.
                     </Subheading>
                 </div>
                 {/* Body */}
@@ -142,7 +138,7 @@ const productDesignSections = [
         ],
     },
     {
-        title: "Marketing Strategies",
+        title: "Consulting Strategies",
         buttons: [
             {
                 text: "Product Rollout Campaign",
@@ -159,9 +155,7 @@ const productDesignSections = [
 ];
 
 function ProductDesign() {
-    const [hoveredButton, setHoveredButton] = useState<string>(
-        "Business Canvas Modeling"
-    );
+    const [hoveredButton, setHoveredButton] = useState<string>("Business Canvas Modeling");
 
     return (
         <div className="flex flex-col md:flex-row gap-8 p-6 bg-white rounded-lg shadow-xs">
@@ -178,9 +172,7 @@ function ProductDesign() {
                             height={500}
                             className={cn(
                                 "absolute top-0 left-0 w-full h-full object-cover rounded-lg transition-opacity duration-500 ease-in-out",
-                                hoveredButton === text
-                                    ? "opacity-100"
-                                    : "opacity-0"
+                                hoveredButton === text ? "opacity-100" : "opacity-0"
                             )}
                         />
                     ))}
@@ -200,12 +192,8 @@ function ProductDesign() {
                                             color,
                                             "px-6 md:px-16 py-3 text-base text-white rounded-[5px] hover:opacity-90 transition-all hover:font-semibold hover:shadow-lg"
                                         )}
-                                        onMouseEnter={() =>
-                                            setHoveredButton(text)
-                                        }
-                                        onMouseLeave={() =>
-                                            setHoveredButton(text)
-                                        }
+                                        onMouseEnter={() => setHoveredButton(text)}
+                                        onMouseLeave={() => setHoveredButton(text)}
                                     >
                                         {text}
                                     </button>
@@ -222,11 +210,7 @@ function ProductDesign() {
 const softwareEngineeringSections = [
     {
         title: "Backend_Systems",
-        buttons: [
-            { text: "Secure_APIs" },
-            { text: "Algorithms" },
-            { text: "Message-Oriented_Architecture" },
-        ],
+        buttons: [{ text: "Secure_APIs" }, { text: "Algorithms" }, { text: "Message-Oriented_Architecture" }],
     },
     {
         title: "Frontend_Development",
@@ -240,11 +224,7 @@ const softwareEngineeringSections = [
     },
     {
         title: "Dev_Ops",
-        buttons: [
-            { text: "Containerization_and_Orchestration" },
-            { text: "Bug_Fixing" },
-            { text: "Deployment" },
-        ],
+        buttons: [{ text: "Containerization_and_Orchestration" }, { text: "Bug_Fixing" }, { text: "Deployment" }],
     },
 ];
 
@@ -255,9 +235,7 @@ function SoftwareEngineering() {
             <div className="md:w-1/2 space-y-12 flex flex-col items-start justify-center">
                 {softwareEngineeringSections.map(({ title, buttons }) => (
                     <section key={title} className="space-y-4">
-                        <h2 className="text-2xl font-bold text-foreground">
-                            {title}
-                        </h2>
+                        <h2 className="text-2xl font-bold text-foreground">{title}</h2>
                         <div className="grid gap-4">
                             <div className="flex gap-4 flex-wrap">
                                 {buttons.map(({ text }) => (

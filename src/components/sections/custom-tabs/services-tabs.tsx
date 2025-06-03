@@ -60,7 +60,7 @@ const tabs = [
                     </Card>
                     <Card className="border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20 ">
                         <CardContent className="p-6 flex flex-col gap-4">
-                            <CardTitle className="text-emerald-800">Marketing Strategies</CardTitle>
+                            <CardTitle className="text-emerald-800">Consulting Strategies</CardTitle>
                             <ul className="space-y-2 text-sm text-emerald-900 dark:text-emerald-200">
                                 <li className="flex items-center">
                                     <span className="mr-2 h-2 w-2 rounded-full bg-emerald-500" />
@@ -81,7 +81,7 @@ const tabs = [
         title: "Software Engineering",
         value: "software_engineering",
         content: (
-            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-linear-to-br from-novium-secondary to-novium-primary flex flex-col justify-center items-center">
+            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-linear-to-br from-novium-light-gray to-novium-primary flex flex-col justify-center items-center">
                 <CardHeader className="px-0 pt-0 flex flex-col justify-center items-center gap-3">
                     <Badge variant="outline" className="w-fit bg-white">
                         Development Focus
@@ -92,58 +92,58 @@ const tabs = [
                     </CardDescription>
                 </CardHeader>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    <Card className="border-0 bg-blue-100">
+                    <Card className="border-0 bg-white">
                         <CardContent className="p-6 flex flex-col gap-4">
-                            <CardTitle className="text-novium-primary">Backend Systems</CardTitle>
+                            <CardTitle className="text-black">Backend Systems</CardTitle>
                             <ul className="space-y-2 text-sm text-primary dark:text-emerald-200">
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-primary" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-light-gray" />
                                     Secure APIs
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-primary" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-light-gray" />
                                     Algorithms
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-primary" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-light-gray" />
                                     Message Oriented Architecture
                                 </li>
                             </ul>
                         </CardContent>
                     </Card>
-                    <Card className="border-0 bg-blue-100">
+                    <Card className="border-0 bg-white">
                         <CardContent className="p-6 flex flex-col gap-4">
-                            <CardTitle className="text-novium-primary">Frontend Development</CardTitle>
+                            <CardTitle className="text-black">Frontend Development</CardTitle>
                             <ul className="space-y-2 text-sm text-primary dark:text-emerald-200">
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-primary" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-light-gray" />
                                     Analytical Dashboards
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-primary" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-light-gray" />
                                     Web/Mobile Apps
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-primary" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-light-gray" />
                                     Micro-Frontends
                                 </li>
                             </ul>
                         </CardContent>
                     </Card>
-                    <Card className="border-0 bg-blue-100">
+                    <Card className="border-0 bg-white">
                         <CardContent className="p-6 flex flex-col gap-4">
-                            <CardTitle className="text-novium-primary">Dev Ops</CardTitle>
+                            <CardTitle className="text-black">Dev Ops</CardTitle>
                             <ul className="space-y-2 text-sm text-primary dark:text-emerald-200">
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-primary" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-light-gray" />
                                     Containerization and Orchestration
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-primary" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-light-gray" />
                                     Bug Fixing
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-primary" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-novium-light-gray" />
                                     Deployment
                                 </li>
                             </ul>
