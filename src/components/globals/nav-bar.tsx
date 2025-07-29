@@ -24,7 +24,7 @@ export default function Navbar() {
     const { resolvedTheme } = useTheme();
 
     return (
-        <header className="sticky top-5 z-50 w-full container mx-auto bg-background py-4">
+        <header className="sticky top-0 md:top-5 z-50 w-full container mx-auto bg-background py-4">
             <div className="flex h-16 items-center px-4 md:px-6">
                 <Link href="/" className="flex items-center space-x-2">
                     <div className="relative size-40">
