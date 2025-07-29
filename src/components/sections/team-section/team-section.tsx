@@ -3,11 +3,14 @@
 import { Check } from "lucide-react";
 import Container from "../../primatives/container";
 import Heading from "../../primatives/heading";
-import Avatar1 from "@/assets/image.png";
 import { useRef } from "react";
 import { useInView, motion } from "framer-motion";
 import Image from "next/image";
 import { Coffee, Code, Database, Eye, Sparkles, Wand2, Bug, Zap, CheckCircle, Palette } from "lucide-react";
+
+import MC from "@/assets/mc.png";
+import OZ from "@/assets/oz.png";
+import MK from "@/assets/mk.png";
 
 type TeamMember = {
     name: string;
@@ -21,19 +24,19 @@ const teamMembers: TeamMember[] = [
         name: "Mohamad Kreidly",
         role: "CEO & Founder",
         tags: ["CEO of Multitasking", "Sleeps with one eye on code", "Gets sh*t done"],
-        image: Avatar1.src,
+        image: MK.src,
     },
     {
         name: "Mohamad Chebli",
         role: "Full-stack Developer - Odoo Expert",
         tags: ["Design. Code. Deploy.", "UX Driven", "Pixel Perfect"],
-        image: Avatar1.src,
+        image: MC.src,
     },
     {
         name: "Omar Zaatari",
         role: "Backend Developer - Odoo Expert",
         tags: ["Code Magician", "Database Whisperer", "Bug Exterminator"],
-        image: Avatar1.src,
+        image: OZ.src,
     },
 ];
 
@@ -106,7 +109,7 @@ export default function TeamSection() {
                                 variants={itemVariants}
                             >
                                 <div className="p-4 flex flex-col items-center">
-                                    <div className="w-40 h-40 mb-4 relative overflow-hidden">
+                                    <div className="w-40 h-40 mb-4 relative overflow-hidden rounded-full">
                                         <Image
                                             src={member.image || "/placeholder.svg"}
                                             alt={member.name}
