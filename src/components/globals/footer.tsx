@@ -21,6 +21,9 @@ export default function Footer() {
                             <Link href="mailto:sales@novium.io">
                                 <p className="text-sm md:text-base text-center md:text-left">sales@novium.io</p>
                             </Link>
+                            <Link href="https://wa.me/96176667400" target="_blank" rel="noopener noreferrer">
+                                <p className="text-sm md:text-base text-center md:text-left">+961 76 667 400</p>
+                            </Link>
                         </div>
 
                         <div className="space-y-2">
