@@ -81,7 +81,7 @@ export default function TeamSection() {
     };
 
     return (
-        <Container className="mt-60 mb-32">
+        <Container className="my-20">
             <div id="team" className="w-full flex flex-col gap-10 px-4" ref={ref}>
                 <SectionTag />
                 <Heading className="text-center">The Minds Behind Novium</Heading>

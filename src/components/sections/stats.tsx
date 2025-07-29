@@ -15,12 +15,12 @@ export default function Stats() {
     const plugin = React.useRef(Autoplay({ delay: 3000, stopOnInteraction: false }));
 
     return (
-        <section className="container mx-auto px-4 md:px-16 py-16 bg-white my-[100px]">
+        <section className="container mx-auto px-4 md:px-16 py-16 bg-white">
             <div className="space-y-6 md:space-y-12">
                 <Heading className="text-slate-700">At Novium, We Design Solutions That Work.</Heading>
 
-                <div className="flex md:gap-12 justify-center items-center">
-                    <p className="text-sm md:text-lg text-neutral-600">
+                <div className="flex flex-col md:flex-row md:gap-12 justify-center items-center">
+                    <p className="text-sm md:text-lg text-neutral-600 mb-8 md:mb-0 text-center md:text-left">
                         We turn ideas into impactful digital solutions. From intuitive designs to seamless development,
                         we specialize in crafting user-centered experiences that drive results and help your business
                         thrive.
@@ -40,7 +40,7 @@ export default function Stats() {
                     </div>
 
                     {/* Mobile Carousel */}
-                    <div className="lg:hidden flex-1 w-[50%]">
+                    <div className="lg:hidden flex-1 w-full md:w-[50%]">
                         <Carousel
                             plugins={[plugin.current]}
                             className="w-full"

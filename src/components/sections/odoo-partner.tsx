@@ -7,12 +7,12 @@ import Subheading from "../primatives/subheading";
 
 export const OdooPartnerSection = () => {
     return (
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-background container mx-auto">
+        <section className="w-full py-20 bg-background container mx-auto my-20">
             <Container>
                 <div className="flex flex-col items-center justify-center text-center space-y-8">
                     <div className="space-y-4 max-w-3xl mx-auto">
                         <Heading>Certified Odoo Partner</Heading>
-                        <Subheading>
+                        <Subheading className="w-full max-w-full">
                             We specialize in implementing and customizing Odoo ERP solutions to streamline your business
                             operations
                         </Subheading>

@@ -238,7 +238,7 @@ export function ServicesTabs() {
     return (
         <div
             id="expertise"
-            className="h-[110dvh] lg:h-[60dvh] perspective-[1000px] relative flex flex-col container mx-auto w-full items-center justify-center my-40 px-4 lg:px-0"
+            className="h-[110dvh] lg:h-[60dvh] perspective-[1000px] relative flex flex-col container mx-auto w-full items-center justify-center mb-40 px-4 lg:px-0"
         >
             <div className="">
                 <h1 className="z-10 text-2xl text-center font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">

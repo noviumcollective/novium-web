@@ -12,7 +12,7 @@ export default function Home() {
             <OdooPartnerSection />
             <ServicesTabs />
             <TeamSection />
-            <div className="bg-novium-conic-gradient-mobile md:bg-novium-conic-gradient">
+            <div className="bg-novium-conic-gradient-mobile md:bg-novium-conic-gradient w-full">
                 <CTA />
                 <Footer />
             </div>
