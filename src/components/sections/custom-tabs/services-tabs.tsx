@@ -7,6 +7,85 @@ import { motion } from "framer-motion";
 
 const tabs = [
     {
+        title: "Odoo Development",
+        value: "odoo_development",
+        content: (
+            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-linear-to-br from-blue-400 to-blue-600 flex flex-col justify-center items-center">
+                <CardHeader className="px-0 pt-0 flex flex-col justify-center items-center gap-3">
+                    <Badge
+                        variant="outline"
+                        className="w-fit bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-50"
+                    >
+                        ERP Solutions
+                    </Badge>
+                    <CardTitle className="text-white text-center">Odoo Development</CardTitle>
+                    <CardDescription className="text-white text-center font-medium">
+                        Empowering businesses with customized Odoo solutions
+                    </CardDescription>
+                </CardHeader>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                    <Card className="border-blue-300 bg-blue-50/90 dark:bg-blue-800/20">
+                        <CardContent className="p-6 flex flex-col gap-4">
+                            <CardTitle className="text-blue-600">Odoo Implementation</CardTitle>
+                            <ul className="space-y-2 text-sm text-blue-700 dark:text-blue-100">
+                                <li className="flex items-center">
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    Full ERP System Setup
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    Data Migration & Integration
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    Module Configuration
+                                </li>
+                            </ul>
+                        </CardContent>
+                    </Card>
+                    <Card className="border-blue-300 bg-blue-50/90 dark:bg-blue-800/20">
+                        <CardContent className="p-6 flex flex-col gap-4">
+                            <CardTitle className="text-blue-600">Odoo Customization</CardTitle>
+                            <ul className="space-y-2 text-sm text-blue-700 dark:text-blue-100">
+                                <li className="flex items-center">
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    Custom Module Development
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    UI/UX Enhancements
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    Third-party Integrations
+                                </li>
+                            </ul>
+                        </CardContent>
+                    </Card>
+                    <Card className="border-blue-300 bg-blue-50/90 dark:bg-blue-800/20">
+                        <CardContent className="p-6 flex flex-col gap-4">
+                            <CardTitle className="text-blue-600">Consulting & SOPs</CardTitle>
+                            <ul className="space-y-2 text-sm text-blue-700 dark:text-blue-100">
+                                <li className="flex items-center">
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    Business Process Analysis
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    Standard Operating Procedures
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    Training & Documentation
+                                </li>
+                            </ul>
+                        </CardContent>
+                    </Card>
+                </div>
+            </div>
+        ),
+    },
+    {
         title: "Product Design",
         value: "product_design",
         content: (

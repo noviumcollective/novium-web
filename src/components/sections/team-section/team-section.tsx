@@ -25,13 +25,13 @@ const teamMembers: TeamMember[] = [
     },
     {
         name: "Mohamad Chebli",
-        role: "Software Engineer",
+        role: "Full-stack Developer - Odoo Expert",
         tags: ["Design. Code. Deploy.", "UX Driven", "Pixel Perfect"],
         image: Avatar1.src,
     },
     {
         name: "Omar Zaatari",
-        role: "Backend Developer",
+        role: "Backend Developer - Odoo Expert",
         tags: ["Code Magician", "Database Whisperer", "Bug Exterminator"],
         image: Avatar1.src,
     },
