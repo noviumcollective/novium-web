@@ -6,3 +6,4 @@ export { default as ProductBuilding } from "./sections/product-building";
 export { default as ServicesSection } from "./sections/services-section/services-section";
 export { default as Team } from "./sections/team-section/team-section";
 export { default as CTA } from "./sections/cta";
+export * from "./sections/odoo-partner";
