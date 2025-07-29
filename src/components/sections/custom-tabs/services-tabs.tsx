@@ -10,11 +10,11 @@ const tabs = [
         title: "Odoo Development",
         value: "odoo_development",
         content: (
-            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-linear-to-br from-blue-400 to-blue-600 flex flex-col justify-center items-center">
+            <div className="w-full overflow-hidden relative h-full p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-linear-to-br from-[#8B5D80] to-[#02A4AC] flex flex-col justify-center items-center">
                 <CardHeader className="px-0 pt-0 flex flex-col justify-center items-center gap-3">
                     <Badge
                         variant="outline"
-                        className="w-fit bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-50"
+                        className="w-fit bg-white/10 text-white dark:bg-white/20 dark:text-white"
                     >
                         ERP Solutions
                     </Badge>
@@ -24,58 +24,58 @@ const tabs = [
                     </CardDescription>
                 </CardHeader>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    <Card className="border-blue-300 bg-blue-50/90 dark:bg-blue-800/20">
+                    <Card className="border-white/20 bg-white/10 dark:bg-white/10">
                         <CardContent className="p-6 flex flex-col gap-4">
-                            <CardTitle className="text-blue-600">Odoo Implementation</CardTitle>
-                            <ul className="space-y-2 text-sm text-blue-700 dark:text-blue-100">
+                            <CardTitle className="text-white">Odoo Implementation</CardTitle>
+                            <ul className="space-y-2 text-sm text-white/90 dark:text-white/80">
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-white" />
                                     Full ERP System Setup
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-white" />
                                     Data Migration & Integration
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-white" />
                                     Module Configuration
                                 </li>
                             </ul>
                         </CardContent>
                     </Card>
-                    <Card className="border-blue-300 bg-blue-50/90 dark:bg-blue-800/20">
+                    <Card className="border-white/20 bg-white/10 dark:bg-white/10">
                         <CardContent className="p-6 flex flex-col gap-4">
-                            <CardTitle className="text-blue-600">Odoo Customization</CardTitle>
-                            <ul className="space-y-2 text-sm text-blue-700 dark:text-blue-100">
+                            <CardTitle className="text-white">Odoo Customization</CardTitle>
+                            <ul className="space-y-2 text-sm text-white/90 dark:text-white/80">
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-white" />
                                     Custom Module Development
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-white" />
                                     UI/UX Enhancements
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-white" />
                                     Third-party Integrations
                                 </li>
                             </ul>
                         </CardContent>
                     </Card>
-                    <Card className="border-blue-300 bg-blue-50/90 dark:bg-blue-800/20">
+                    <Card className="border-white/20 bg-white/10 dark:bg-white/10">
                         <CardContent className="p-6 flex flex-col gap-4">
-                            <CardTitle className="text-blue-600">Consulting & SOPs</CardTitle>
-                            <ul className="space-y-2 text-sm text-blue-700 dark:text-blue-100">
+                            <CardTitle className="text-white">Consulting & SOPs</CardTitle>
+                            <ul className="space-y-2 text-sm text-white/90 dark:text-white/80">
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-white" />
                                     Business Process Analysis
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-white" />
                                     Standard Operating Procedures
                                 </li>
                                 <li className="flex items-center">
-                                    <span className="mr-2 h-2 w-2 rounded-full bg-blue-400" />
+                                    <span className="mr-2 h-2 w-2 rounded-full bg-white" />
                                     Training & Documentation
                                 </li>
                             </ul>
