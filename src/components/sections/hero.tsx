@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <div className="relative mx-auto flex container flex-col items-center justify-center bg-meetingroom1 bg-cover bg-center bg-no-repeat min-h-[60vh] md:min-h-[70vh] my-20">
+        <div className="relative mx-auto flex container flex-col items-center justify-center bg-meetingroom1 bg-cover bg-center bg-no-repeat min-h-[60vh] md:min-h-[70vh] md:my-20">
             <div className="absolute inset-0 bg-black opacity-50 z-0" />
             <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
                 <div className="absolute top-0 h-40 w-0.5 bg-linear-to-b from-transparent via-novium-green to-transparent" />
